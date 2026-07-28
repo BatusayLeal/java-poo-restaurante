@@ -66,7 +66,7 @@ public class AppRestaurante {
         scanner.close();
     }
 
-    // METODOS
+    // METODOS registrarProducto listarProductos modificarProducto eliminarProducto
 
     private static void registrarProducto(Scanner scanner, Restaurante restaurante) {
         System.out.println("\n--- Registrar producto ---");
