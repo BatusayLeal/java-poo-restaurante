@@ -15,6 +15,7 @@ public class AppRestaurante {
         int opcion;
 
         do {
+            // Dibuja el menu //
             System.out.println("\n========== ADMINISTRACIÓN DEL MENÚ ==========");
             System.out.println("1. Registrar producto");
             System.out.println("2. Listar productos");
@@ -62,11 +63,11 @@ public class AppRestaurante {
             }
 
         } while (opcion != 6);
-
+        // sale y cierra la sesion de scanner
         scanner.close();
     }
 
-    // METODOS registrarProducto listarProductos modificarProducto eliminarProducto
+    // Metodos registrarProducto listarProductos modificarProducto eliminarProducto //
 
     private static void registrarProducto(Scanner scanner, Restaurante restaurante) {
         System.out.println("\n--- Registrar producto ---");
