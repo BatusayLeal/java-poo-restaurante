@@ -12,6 +12,8 @@ public abstract class ProductoMenu {
         this.disponible = disponible;
     }
 
+
+    // Getters Setters
     public int getId() {
         return id;
     }
@@ -40,6 +42,7 @@ public abstract class ProductoMenu {
         this.disponible = disponible;
     }
 
+    // toString
     @Override
     public String toString() {
         String estado = disponible ? "SI" : "NO";

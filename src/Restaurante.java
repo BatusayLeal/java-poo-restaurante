@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class Restaurante {
 
+    // Crear Array de Productos
     private ArrayList<ProductoMenu> menu = new ArrayList<>();
 
     public boolean registrarProducto(ProductoMenu producto) {

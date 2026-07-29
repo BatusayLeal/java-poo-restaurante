@@ -7,6 +7,7 @@ public class Plato extends ProductoMenu {
         this.categoria = categoria;
     }
 
+    // Getters Setters
     public String getCategoria() {
         return categoria;
     }
@@ -15,6 +16,7 @@ public class Plato extends ProductoMenu {
         this.categoria = categoria;
     }
 
+    // toString
     @Override
     public String toString() {
         return "[PLATO] " + super.toString() + " | Categoría: " + categoria;

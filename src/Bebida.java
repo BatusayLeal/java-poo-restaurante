@@ -7,6 +7,7 @@ public class Bebida extends ProductoMenu {
         this.tamanioMl = tamanioMl;
     }
 
+    // Getters Setters
     public int getTamanioMl() {
         return tamanioMl;
     }
@@ -15,6 +16,7 @@ public class Bebida extends ProductoMenu {
         this.tamanioMl = tamanioMl;
     }
 
+    // toString    
     @Override
     public String toString() {
         return "[BEBIDA] " + super.toString() + " | Tamaño: " + tamanioMl + " ml";
